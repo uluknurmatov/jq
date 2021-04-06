@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- Лого -->
+        <div class="header">
+            <div class="container">
+                <div class="menu">
+                    <span class="logo">Salam12</span>
+                    <input class="search-inp" type="text" placeholder="Поиск" />
+                    <img
+                        class="colocol"
+                        src="./img/free-icon-notification-bell-77682.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+        <!-- Контент -->
+        <div class="middle">
+            <div class="container">
+                <div class="navbar">
+                    <div class="glavnoe">
+                        <img
+                            class="home"
+                            src="./img/free-icon-home-1946436.png"
+                            alt=""
+                        />
+                        <p>Главная</p>
+                    </div>
+                    <div class="my-str">
+                        <img class="home" src="./img/user.png" alt="" />
+                        <p>Моя страница</p>
+                    </div>
+                    <div class="messanger">
+                        <img class="home" src="./img/messenger.png" alt="" />
+                        <p>Мессенджер</p>
+                    </div>
+                    <div class="music">
+                        <img class="home" src="./img/music.png" alt="" />
+                        <p>Музыка</p>
+                    </div>
+                    <div class="video">
+                        <img class="home" src="./img/play-button.png" alt="" />
+                        <p>Видео</p>
+                    </div>
+                    <div class="image">
+                        <img
+                            class="home"
+                            src="./img/insert-picture-icon.png"
+                            alt=""
+                        />
+                        <p>Фотографии</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <input
+                        class="inp_post"
+                        type="text"
+                        placeholder="Что нового?"
+                    />
+                    <button class="add_btn">Опубликовать</button>
+                    <div class="history">
+                        <ul class="posts_list"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------------------------------------- Модалка --------------------- -->
+        <!-- <button id="btn_modal_window">Open Modal</button> -->
+        <div id="my_modal" class="modal">
+            <div class="modal_content">
+                <span class="close_modal_window">×</span>
+                <div class="edit-post">
+                    <input type="text" class="edit-inp" />
+                    <button class="btn-save">Save</button>
+                </div>
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

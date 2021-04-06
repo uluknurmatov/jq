@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    padding-bottom: 30px;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.search-inp {
+    margin-left: 168px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+.colocol {
+    width: 35px;
+    height: 35px;
+    margin-left: 100px;
+}
+.middle {
+    background-color: rgb(200, 224, 224);
+}
+
+.post {
+    margin-left: 50px;
+    padding-top: 10px;
+    width: 500px;
+}
+.inp_post {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.add_btn {
+    height: 25px;
+    background-color: rgb(59, 59, 255);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    margin-left: 390px;
+}
+.history {
+    height: 100%;
+    background-color: white;
+}
+
+.glavnoe {
+    display: flex;
+}
+.home {
+    width: 40px;
+    height: 40px;
+}
+
+.my-str {
+    display: flex;
+}
+
+.messanger {
+    display: flex;
+}
+
+.music {
+    display: flex;
+}
+.video {
+    display: flex;
+}
+.image {
+    display: flex;
+}
+
+/* ------------------ Модалка ---------------------------- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+.modal .modal_content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    z-index: 99999;
+}
+.modal .modal_content .close_modal_window {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
